@@ -254,6 +254,7 @@ h1::before{
 .navpro ul li{
     border: solid 2px #998675;
     padding: 7px 10px 7px 10px;
+    border-radius: 5px;
 }
 .navpro ul li a{
     color: #716050;
