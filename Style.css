@@ -216,6 +216,7 @@ h1::before{
     margin-bottom: none;
     font-size: 30px;
 }
+/* Bouton purchase */
 #wordpress button {
     margin-top: 40px;
     width: 100%;
@@ -231,3 +232,38 @@ h1::before{
     color: white;
     font-size: 15px;
 }
+/* entête galerie image */
+#project h2{
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+#project p{
+    text-align: center;
+}
+.navpro{
+    padding-top: 20px;
+    width: 25%;
+    margin: auto;
+}
+.navpro ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.navpro ul li{
+    border: solid 2px #998675;
+    padding: 7px 10px 7px 10px;
+}
+.navpro ul li a{
+    color: #716050;
+    text-decoration: none;
+}
+.navpro ul li:hover{
+    background-color: #716050;
+}
+.navpro ul li a:hover{
+    color: white;
+}
+
+
