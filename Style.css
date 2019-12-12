@@ -93,6 +93,7 @@ h1::before{
     position: relative;
 }
 /* Fin de flèches*/
+/* Nav à point pour les photos*/
 #slidenav{
     width: 100%;
     display: flex;
@@ -106,6 +107,7 @@ h1::before{
     border-radius: 20px;
     background: #EBDED3;
 }
+/* point actif pour maquette*/
 #dotactive{
     margin: 10px;
     width: 10px;
