@@ -80,6 +80,7 @@ h1::before{
     color: white;
     font-size: 15px;
 }
+/* flèches header*/
 #fleches{
     margin-left: 115px;
     margin-top: 300px;
@@ -91,5 +92,29 @@ h1::before{
     z-index: 1;
     position: relative;
 }
-/* flèches header*/
 /* Fin de flèches*/
+#slidenav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 420px;
+}
+.dot{
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background: #EBDED3;
+}
+#dotactive{
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #998675;
+    border: solid 2px white;
+}
+.dot:active{
+    background-color: #998675;
+    border: solid 2px white;
+}
