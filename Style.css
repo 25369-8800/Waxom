@@ -170,9 +170,9 @@ h1::before{
 /* fin d'entête screenshot */
 /* Début design carrousel index */
 #index{
-    width: 30%;
+    width: 35%;
     display: flex;
-    margin-left: 520px
+    margin-left: 510px
 }
 #z3{
     width: 30%;
