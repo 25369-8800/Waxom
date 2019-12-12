@@ -1,0 +1,50 @@
+/* Background image*/
+header{
+    background-image: url(./Assets/Images/backgroundheader.png);
+    background-size: cover;
+}
+/*Mise en place du menu*/
+nav {
+    width: 50%;
+    height: 4vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+#iconemenu{
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+#iconemenu p a{
+    align-items: center;
+    color: white
+}
+/* fin de menu*/
+/* flèches header*/
+#fleches {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+#fleches p {
+    font-size: 100px;
+    color: white;
+}
+#flèchesd {
+    width: 100%;
+    display: flex;
+}
+/* Fin de flèches*/
