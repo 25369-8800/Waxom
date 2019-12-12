@@ -129,6 +129,7 @@ h1::before{
     justify-content: space-around;
     margin: auto;
 }
+/* Design icone et fonction non active */
 .describe{
     text-align: center;
 }
@@ -141,6 +142,7 @@ h1::before{
     width: 30%;
     color: #71605050;
 }
+/* Fonction active */
 #describeactive{
     text-align: center;
     color: #716050;
@@ -155,3 +157,35 @@ h1::before{
     width: 30%;
     color: #716050;
 }
+/* Screenshot et index mise en place du titre et du texte */
+#screenshot h2{
+    padding-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+#screenshot p{
+    text-align: center;
+    padding-bottom: 50px;
+}
+/* fin d'entête screenshot */
+/* Début design carrousel index */
+#index{
+    width: 30%;
+    display: flex;
+    margin-left: 520px
+}
+#z3{
+    width: 30%;
+    z-index: 3;
+}
+#z2{
+    width: 30%;
+    z-index: 2;
+    margin-left: 50px;
+}
+#z1{
+    width: 30%;
+    z-index: 1;
+    margin-right: 500px;
+}  
+/* fin index */
