@@ -210,10 +210,11 @@ h1::before{
 #wordpress p{
     color: #998675;
     font-size: 20px;
+    margin-top: 1px;
 }
 #wordpress h2{
     margin-top: 35px;
-    margin-bottom: none;
+    margin-bottom: 0;
     font-size: 30px;
 }
 /* Bouton purchase */
@@ -276,30 +277,30 @@ h1::before{
     color: white;
 }
 /* Première ligne galerie d'image*/
-#ligne1{
+.ligne1{
     display: flex;
     width: 55%;
     margin: auto;
 }
-#ligne1 figcaption h2{
+.ligne1 figcaption h2{
     padding-top: 15px;
     color: #998675 ;
     margin-left: 20px;
     margin-bottom: 7px;
 }
-#ligne1 figcaption p{
+.ligne1 figcaption p{
     color: rgb(158, 158, 158);
     margin-left: 20px;
     margin-top: 2px;
 }
-#ligne1 figcaption{
+.ligne1 figcaption{
     bottom: 25px;
     width: 370px;
     height: 80px;
     background: #fbfaf8;
     position: relative;
 }
-#ligne1 figcaption::before{
+.ligne1 figcaption::before{
     content: "";
       position: absolute;
       transform: rotate(90deg);
@@ -348,4 +349,99 @@ h1::before{
       border-right: 20px solid #fbfaf8;
       border-bottom: 20px solid transparent;
 }
+#ligne2 figcaption h2{
+    padding-top: 15px;
+    color: #998675 ;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+#ligne2 figcaption p{
+    color: rgb(158, 158, 158);
+    margin-left: 20px;
+    margin-top: 2px;
+}
+#ligne2 figcaption{
+    bottom: 25px;
+    width: 370px;
+    height: 80px;
+    background: #fbfaf8;
+    position: relative;
+}
+#ligne2 figcaption::before{
+    content: "";
+      position: absolute;
+      transform: rotate(90deg);
+      bottom: 87%;
+      left: 20px;
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-right: 20px solid #fbfaf8;
+      border-bottom: 20px solid transparent;
+}
+#activeline figcaption h2{
+    padding-top: 15px;
+    color: white ;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+#activeline figcaption p{
+    color: #998675;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+#activeline figcaption{
+    bottom: 25px;
+    width: 370px;
+    height: 80px;
+    background: #443a30;
+    position: relative;
+}
+#activeline figcaption::before{
+    content: "";
+      position: absolute;
+      transform: rotate(90deg);
+      bottom: 87%;
+      left: 20px;
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-right: 20px solid #443a30;
+      border-bottom: 20px solid transparent;
+}
 /* Fin de deuxième ligne */
+/* icone sur image hover */
+.icone {
+    opacity: 1;
+    position: relative;
+    bottom: -150px;
+    left: 1175px;
+    color: white;
+}
+.fa-link{
+    color: #998675;
+}
+/* fin d'icone*/
+/* button load more  */
+#loadmore{
+    padding-top: 50px;
+    width: 10%;
+    margin: auto;
+}
+#loadmore button {
+    margin-top: 40px;
+    width: 100%;
+    margin: auto;
+    height: 4vh;
+    border-radius: 5px;
+    border: #716050;
+    background-color: #998675;
+    border-block-end: solid 4px rgba(83, 63, 44, 0.5);
+}
+#loadmore button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+/* Fin de bouton*/
