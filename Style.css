@@ -281,59 +281,71 @@ h1::before{
     width: 55%;
     margin: auto;
 }
-#ligne1 figure{
-    background-color: rgba(199, 180, 162, 0.25);
-}
-
 #ligne1 figcaption h2{
+    padding-top: 15px;
     color: #998675 ;
     margin-left: 20px;
+    margin-bottom: 7px;
 }
 #ligne1 figcaption p{
     color: rgb(158, 158, 158);
     margin-left: 20px;
+    margin-top: 2px;
+}
+#ligne1 figcaption{
+    bottom: 25px;
+    width: 370px;
+    height: 80px;
+    background: #fbfaf8;
+    position: relative;
+}
+#ligne1 figcaption::before{
+    content: "";
+      position: absolute;
+      transform: rotate(90deg);
+      bottom: 87%;
+      left: 20px;
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-right: 20px solid #fbfaf8;
+      border-bottom: 20px solid transparent;
 }
 /* Fin de première ligne galerie d'image*/
-#imgactive{
-    display: flex;
-    width: 55%;
-    margin: auto;
-}
-#imgactive figure img{
-    filter: brightness(50%);
-}
-#imgactive figure{
-    background-color: #47301A;
-    color: rgba(83, 63, 44, 0.5);
-}
-#imgactive figcaption h2{
-    color: #ffffff ;
-    margin-left: 20px;
-}
-#imgactive figcaption p{
-    color: rgb(158, 158, 158);
-    margin-left: 20px;
-}
-#imgactive i{
-    color: white;
-    position: relative;
-    top: 20px;
-}
 /* Début de la deuxième ligne de la galerie d'image*/
 #ligne2{
     display: flex;
     width: 55%;
     margin: auto;
 }
-#ligne2 figure{
-    background-color: rgba(199, 180, 162, 0.25);
-}
 #ligne2 figcaption h2{
+    padding-top: 15px;
     color: #998675 ;
     margin-left: 20px;
+    margin-bottom: 7px;
 }
 #ligne2 figcaption p{
     color: rgb(158, 158, 158);
     margin-left: 20px;
+    margin-top: 2px;
+}
+#ligne2 figcaption{
+    bottom: 25px;
+    width: 370px;
+    height: 80px;
+    background: #fbfaf8;
+    position: relative;
+}
+#ligne2 figcaption::before{
+    content: "";
+      position: absolute;
+      transform: rotate(90deg);
+      bottom: 87%;
+      left: 20px;
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-right: 20px solid #fbfaf8;
+      border-bottom: 20px solid transparent;
 }
 /* Fin de deuxième ligne */
