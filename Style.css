@@ -445,3 +445,37 @@ h1::before{
     font-size: 15px;
 }
 /* Fin de bouton*/
+/* icône play*/
+#vidéo{
+    margin-top: 100px;
+    background-image: url(./Assets/Images/video.png);
+    background-size: cover;
+}
+#script{
+    text-align: center;
+    width: 25%;
+    margin:auto;
+    padding-left: 30px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+#script .fa-play{
+    position: relative;
+    right: 68px;
+    bottom: 17px;
+    padding-bottom: 50px;
+}
+#script i{
+    color: white;
+}
+#script h2{
+    color: white;
+    padding-bottom: 25px;
+}
+#script p{
+    color: white;
+    padding-bottom: 25px;
+}
+#minute p{
+    color: #bda590 ;
+}
