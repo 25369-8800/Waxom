@@ -241,9 +241,10 @@ h1::before{
 #project p{
     text-align: center;
 }
+/* Navigation des fonctions */
 .navpro{
     padding-top: 20px;
-    width: 25%;
+    width: 22%;
     margin: auto;
 }
 .navpro ul{
@@ -253,18 +254,86 @@ h1::before{
 }
 .navpro ul li{
     border: solid 2px #998675;
-    padding: 7px 10px 7px 10px;
     border-radius: 5px;
+    padding: 7px 10px 7px 10px;
 }
 .navpro ul li a{
     color: #716050;
     text-decoration: none;
 }
+/* Onglet actif */
+#active li a{
+    color: white;
+}
+#active li{
+    background-color: #716050;
+}
+/* Hover des onglets */
 .navpro ul li:hover{
     background-color: #716050;
 }
 .navpro ul li a:hover{
     color: white;
-}  
+}
+/* Première ligne galerie d'image*/
+#ligne1{
+    display: flex;
+    width: 55%;
+    margin: auto;
+}
+#ligne1 figure{
+    background-color: rgba(199, 180, 162, 0.25);
+}
 
-
+#ligne1 figcaption h2{
+    color: #998675 ;
+    margin-left: 20px;
+}
+#ligne1 figcaption p{
+    color: rgb(158, 158, 158);
+    margin-left: 20px;
+}
+/* Fin de première ligne galerie d'image*/
+#imgactive{
+    display: flex;
+    width: 55%;
+    margin: auto;
+}
+#imgactive figure img{
+    filter: brightness(50%);
+}
+#imgactive figure{
+    background-color: #47301A;
+    color: rgba(83, 63, 44, 0.5);
+}
+#imgactive figcaption h2{
+    color: #ffffff ;
+    margin-left: 20px;
+}
+#imgactive figcaption p{
+    color: rgb(158, 158, 158);
+    margin-left: 20px;
+}
+#imgactive i{
+    color: white;
+    position: relative;
+    top: 20px;
+}
+/* Début de la deuxième ligne de la galerie d'image*/
+#ligne2{
+    display: flex;
+    width: 55%;
+    margin: auto;
+}
+#ligne2 figure{
+    background-color: rgba(199, 180, 162, 0.25);
+}
+#ligne2 figcaption h2{
+    color: #998675 ;
+    margin-left: 20px;
+}
+#ligne2 figcaption p{
+    color: rgb(158, 158, 158);
+    margin-left: 20px;
+}
+/* Fin de deuxième ligne */
