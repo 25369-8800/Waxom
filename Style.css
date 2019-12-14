@@ -611,7 +611,7 @@ h1::before{
     display: flex;
     width: 40%;
     right: 750px;
-    bottom: 180px;
+    bottom: 250px;
 }
 .dot2{
     margin: 10px;
@@ -627,12 +627,14 @@ h1::before{
     border-radius: 20px;
     border: solid 2px rgb(235, 222, 211);
 }
+/* flèches en bas de la galerie */
 #flecherecent{
     width: 4%;
     display: flex;
     margin: auto;
     justify-content: space-between;
 }
+/* Flèche de droite */
 .recentright {
     margin:10px;
     width:25px;
@@ -644,6 +646,7 @@ h1::before{
     line-height: 25px;
     color: #998675;
 }
+/* Flèche de gauche */
 .recentleft {
     margin:10px;
     width:25px;
@@ -654,4 +657,98 @@ h1::before{
     border-radius: 100px;
     line-height: 25px;
     color: #998675;
+}
+/* date sur photo */
+.datemois{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 10vh;
+    bottom: 500px;
+    position: relative;
+    margin: auto;
+}
+.date{
+    margin:10px;
+    width:70px;
+    border: 2px solid  #716050;
+    background: #716050;
+    height:40px;
+    text-align:center;
+    line-height: 45px;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+    top: 10px;
+}
+.mois{
+    margin:10px;
+    width:70px;
+    border: 2px solid  #716050;
+    background: #3d342b;
+    height:40px;
+    text-align:center;
+    line-height: 45px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+    right: 11px;
+}
+.date1{
+    margin:10px;
+    width:70px;
+    border: 2px solid  #716050;
+    background: #716050;
+    height:40px;
+    text-align:center;
+    line-height: 45px;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    right: 107px;
+    top: 10px;
+}
+.mois1{
+    margin:10px;
+    width:70px;
+    border: 2px solid  #716050;
+    background: #3d342b;
+    height:40px;
+    text-align:center;
+    line-height: 45px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+    right: 11px;
+}
+.date2{
+    margin:10px;
+    width:70px;
+    border: 2px solid  #716050;
+    background: #716050;
+    height:40px;
+    text-align:center;
+    line-height: 45px;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    right: 360px;
+    top: 10px;
+}
+.mois2{
+    margin:10px;
+    width:70px;
+    border: 2px solid  #716050;
+    background: #3d342b;
+    height:40px;
+    text-align:center;
+    line-height: 45px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+    right: 11px;
 }
