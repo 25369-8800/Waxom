@@ -33,6 +33,9 @@ nav ul li a {
     align-items: center;
     color: white
 }
+nav ul li a:hover{
+    color: #998675;
+}
 /* fin de menu*/
 /* Intro */
 #intro{
@@ -113,10 +116,6 @@ h1::before{
     width: 10px;
     height: 10px;
     border-radius: 20px;
-    background-color: #998675;
-    border: solid 2px white;
-}
-.dot:active{
     background-color: #998675;
     border: solid 2px white;
 }
@@ -445,12 +444,14 @@ h1::before{
     font-size: 15px;
 }
 /* Fin de bouton*/
-/* icône play*/
+/* Image de section vidéo*/
 #vidéo{
     margin-top: 100px;
     background-image: url(./Assets/Images/video.png);
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+/* mise en place du texte de la section vidéo */
 #script{
     text-align: center;
     width: 25%;
@@ -469,6 +470,7 @@ h1::before{
     color: white;
 }
 #script h2{
+    font-size: 30px;
     color: white;
     padding-bottom: 25px;
 }
@@ -476,6 +478,152 @@ h1::before{
     color: white;
     padding-bottom: 25px;
 }
+/* Durée de la vidéo */
 #minute p{
     color: #bda590 ;
+}
+/* Liste portable */
+#portable{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding-top: 150px;
+}
+/* Section portable */
+#mainportable{
+    width: 50%;
+}
+/* Texte section portable */
+#texteportable {
+    padding-top: 100px;
+    width: 100%;
+}
+#texteportable p{
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+#texteportable h2{
+    font-size: 30px;
+}
+#texteportable li{
+    padding-bottom: 20px;
+}
+#texteportable ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 20px;
+}
+/* Flèches de la liste */
+.flecheport{
+    padding: 1.5px 5px 1.5px 5px;
+    border-radius: 50px;
+    background-color: #998675;
+    color: white;
+    margin-right: 30px;
+}
+/* compteur */
+#compteur{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-image: linear-gradient(to right, rgb(0, 0, 0),#533F2C);
+    position: relative;
+    bottom: 5px;
+}
+#ensemble{
+    padding: 50px ;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.itemcompteur{
+    text-align: center;
+    color: #998675;
+}
+.itemcompteur h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.itemcompteur p{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+/* trait du compteur */
+.itemcompteur hr{
+    width: 30%;
+    color: #716050;
+}
+/*section calendrier*/
+.calendarline{
+    display: flex;
+    width: 55%;
+    margin: auto;
+    padding-top: 25px;
+}
+#calendartitre h2{
+    padding-top: 15px;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    font-size: 30px;
+    text-align: center;
+}
+#calendartitre p{
+    color: black;
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align: center;
+}
+.calendarline h2{
+    padding-top: 15px;
+    color: rgba(0, 0, 0, 0.671);
+    margin-left: 20px;
+    margin-bottom: 7px;
+    font-size: 25px;
+}
+.calendarline p{
+    color: rgba(0, 0, 0, 0.671);
+    margin-left: 20px;
+    margin-top: 2px;
+    font-size: 20px;
+}
+.calendarline a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #716050;
+}
+.calendarline figcaption{
+    bottom: 30px;
+    width: 370px;
+    height: 80px;
+    background: #fbfaf8;
+    position: relative;
+}
+/* ligne de navigation première photo */
+#sliderecent{
+    position: relative;
+    display: flex;
+    width: 40%;
+    right: 750px;
+    bottom: 180px;
+}
+.dot2{
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background: rgba(235, 222, 211, 0.493);
+}
+#dotactive2{
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    border: solid 2px rgb(235, 222, 211);
 }
