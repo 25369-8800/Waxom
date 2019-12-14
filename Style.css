@@ -600,8 +600,8 @@ h1::before{
 }
 .calendarline figcaption{
     bottom: 30px;
-    width: 370px;
-    height: 80px;
+    width: 372px;
+    height: 150px;
     background: #fbfaf8;
     position: relative;
 }
@@ -626,4 +626,32 @@ h1::before{
     height: 10px;
     border-radius: 20px;
     border: solid 2px rgb(235, 222, 211);
+}
+#flecherecent{
+    width: 4%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.recentright {
+    margin:10px;
+    width:25px;
+    border: 2px solid  #998675;
+    background: transparent;
+    height:25px;
+    text-align:center;
+    border-radius: 100px;
+    line-height: 25px;
+    color: #998675;
+}
+.recentleft {
+    margin:10px;
+    width:25px;
+    border: 2px solid  #99867557;
+    background: transparent;
+    height:25px;
+    text-align:center;
+    border-radius: 100px;
+    line-height: 25px;
+    color: #998675;
 }
