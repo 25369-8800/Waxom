@@ -759,7 +759,8 @@ h1::before{
     background-size: cover;
 }
 #leslogos{
-    width: 50%;
+    padding-right: 40px;
+    width: 70%;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -769,6 +770,7 @@ h1::before{
 .hautfooter{
     background-color: black;
     display: flex;
+    padding-left: 350px;
 }
 #logofoot{
     padding: 50px;
@@ -807,6 +809,7 @@ h1::before{
 .septembre p:hover{
     color: #998675 ;
 }
+/* 3ème colonne */
 .Twitter{
     width: 15%;
     padding: 50px;
@@ -832,4 +835,12 @@ h1::before{
 }
 .bitly {
     color: rgb(165, 164, 164);
+}
+/* 4ème colonne */
+.dribble {
+    width: 15%;
+    padding: 50px;
+}
+.dribble h2{
+    color: white;
 }
