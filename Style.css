@@ -764,3 +764,71 @@ h1::before{
     display: flex;
     justify-content: space-around;
 }
+/*Haut du footer*/
+/* colonne avec logo*/
+.hautfooter{
+    background-color: black;
+    display: flex;
+}
+#logofoot{
+    padding: 50px;
+    width: 15%;
+    color: grey;
+    font-size: 20px;
+    line-height: 2vh;
+}
+#logofoot a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* 2ème colonne */
+.septembre{
+    width: 15%;
+    padding: 50px;
+}
+.septembre h2{
+    color: white;
+}
+#date{
+    color: rgba(128, 128, 128, 0.527);
+    font-size: 20px;
+}
+.septembre p{
+    color: grey;
+    font-size: 20px;
+}
+.septembre hr{
+    color: rgba(128, 128, 128, 0.527);
+}
+.septembre #date:hover{
+    color: white;
+}
+.septembre p:hover{
+    color: #998675 ;
+}
+.Twitter{
+    width: 15%;
+    padding: 50px;
+}
+.Twitter h2{
+    color: white;
+}
+.Twitter p{
+    color: grey;
+    font-size: 20px;
+}
+#heure{
+    color: rgba(128, 128, 128, 0.527);
+    font-size: 20px;
+}
+.Twitter p a{
+    color: rgb(9, 178, 245);
+    text-decoration: none;
+}
+.Twitter hr{
+    color: rgba(128, 128, 128, 0.527);
+}
+.bitly {
+    color: rgb(165, 164, 164);
+}
