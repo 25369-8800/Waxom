@@ -856,6 +856,7 @@ h1::before{
     width: 100%;
     display: flex;
 }
+/* deuxième partie du footer bas*/
 #navfooter nav {
     width: 60%;
 }
