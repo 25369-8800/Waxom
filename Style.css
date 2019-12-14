@@ -563,7 +563,6 @@ h1::before{
     display: flex;
     width: 55%;
     margin: auto;
-    padding-top: 25px;
 }
 #calendartitre h2{
     padding-top: 15px;
@@ -578,6 +577,7 @@ h1::before{
     margin-left: 20px;
     margin-top: 2px;
     text-align: center;
+    padding-bottom: 25px;
 }
 .calendarline h2{
     padding-top: 15px;
@@ -610,7 +610,7 @@ h1::before{
     position: relative;
     display: flex;
     width: 40%;
-    right: 750px;
+    left: 695px;
     bottom: 250px;
 }
 .dot2{
