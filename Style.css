@@ -820,7 +820,8 @@ h1::before{
 }
 #heure{
     color: rgba(128, 128, 128, 0.527);
-    font-size: 20px;
+    font-size: 15px;
+    margin-bottom: 0px;
 }
 .Twitter p a{
     color: rgb(9, 178, 245);
