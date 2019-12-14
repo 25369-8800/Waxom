@@ -75,7 +75,7 @@ h1::before{
     border-radius: 5px;
     border: #716050;
     background-color: #998675;
-    border-block-end: solid 4px rgba(83, 63, 44, 0.5);
+    border-bottom: solid 4px rgba(83, 63, 44, 0.5);
 }
 #intro button a{
     text-decoration: none;
@@ -224,7 +224,7 @@ h1::before{
     border-radius: 5px;
     border: #716050;
     background-color: #998675;
-    border-block-end: solid 4px rgba(83, 63, 44, 0.5);
+    border-bottom: solid 4px rgba(83, 63, 44, 0.5);
 }
 #wordpress button a{
     text-decoration: none;
@@ -435,7 +435,7 @@ h1::before{
     border-radius: 5px;
     border: #716050;
     background-color: #998675;
-    border-block-end: solid 4px rgba(83, 63, 44, 0.5);
+    border-bottom: solid 4px rgba(83, 63, 44, 0.5);
 }
 #loadmore button a{
     text-decoration: none;
@@ -671,7 +671,6 @@ h1::before{
 .date{
     margin:10px;
     width:70px;
-    border: 2px solid  #716050;
     background: #716050;
     height:40px;
     text-align:center;
@@ -699,7 +698,6 @@ h1::before{
 .date1{
     margin:10px;
     width:70px;
-    border: 2px solid  #716050;
     background: #716050;
     height:40px;
     text-align:center;
@@ -727,7 +725,6 @@ h1::before{
 .date2{
     margin:10px;
     width:70px;
-    border: 2px solid  #716050;
     background: #716050;
     height:40px;
     text-align:center;
@@ -792,7 +789,7 @@ h1::before{
 .septembre h2{
     color: white;
 }
-#date{
+.jour{
     color: rgba(128, 128, 128, 0.527);
     font-size: 20px;
 }
@@ -803,7 +800,7 @@ h1::before{
 .septembre hr{
     color: rgba(128, 128, 128, 0.527);
 }
-.septembre #date:hover{
+.septembre .jour:hover{
     color: white;
 }
 .septembre p:hover{
@@ -821,7 +818,7 @@ h1::before{
     color: grey;
     font-size: 20px;
 }
-#heure{
+.heure{
     color: rgba(128, 128, 128, 0.527);
     font-size: 15px;
     margin-bottom: 0px;
@@ -860,10 +857,13 @@ h1::before{
 #navfooter nav {
     width: 60%;
 }
-#navfooter li{
+#navfooter li {
+    color: grey;
+}
+#navfooter ul li a{
     color: grey;
     border-right: 1px solid rgba(128, 128, 128, 0.527);
-    padding-right: 15px;
+    padding-right: 25px;
 }
 .grey{
     color: rgb(180, 180, 180);
@@ -885,10 +885,13 @@ h1::before{
 }
 #navfooter2 li{
     color: grey;
-    border-right: 1px solid rgba(128, 128, 128, 0.527);
-    padding-right: 20px;
     margin-left: 1px;
 }
-#borderli li{
-    border-right: none;
+#navfooter2 p {
+    text-decoration: none;
+    color: grey;
+}
+#navfooter2 a{
+    text-decoration: none;
+    color : rgb(180, 180, 180)
 }
